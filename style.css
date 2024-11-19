@@ -1,0 +1,29 @@
+*{
+      padding:0;
+      margin:0;
+      box-sizing: border-box;
+   
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     height: 100vh;
+     background-color: #282c34;
+     color: antiquewhite;
+}
+body::-webkit-scrollbar{
+      display:none;
+}
+
+.clock_container{
+      font-size: 48px;
+      border:2px solid;
+      border-radius: 10px;
+      background-color: (255,255,255,0.1);
+      margin: 300px 300px; 
+      padding:20px;  
+      text-align: center; 
+}
+
+
